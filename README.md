@@ -116,7 +116,7 @@ https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html
   <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/2.png" />
 </p>
 
-## 功能清单
+## 3️⃣功能清单
 
 ### 一、光波频率控制
 
@@ -292,7 +292,7 @@ Code仿真项目/
 
 <br />
 
-# 3️⃣Skill 可扩展性分析 — 多主题领域支持
+# 4️⃣Skill 可扩展性分析 — 多主题领域支持
 
 ## 结论：完全支持多主题领域扩展
 
