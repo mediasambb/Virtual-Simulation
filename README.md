@@ -38,7 +38,7 @@
 - 💻科学计数法显示：全部频率用标准物理格式（5.50×10¹ Hz），符合教学规范
 - 0️⃣零依赖：单文件 HTML，双击运行，无需服务器
 
-<https://math-oss.nanyuecloud.com/xd-rag/vr3_png/1.png>
+[!\[\]https://math-oss.nanyuecloud.com/xd-rag/vr3\_png/1.png](https://math-oss.nanyuecloud.com/xd-rag/vr3_png/1.png)
 
 ## 项目结构
 
