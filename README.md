@@ -66,12 +66,9 @@ Virtual-Simulation/
 
 ### 方式 1：直接打开
 
-双击 <https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html>，浏览器即可运行
+双击 !\[Virtual Simulation Dmeo]\([https://math-oss.nanyuecloud.com/xd-rag/vr3\_png/molecule\_and\_light.html)](https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html)，浏览器即可运行
 
-<p align="center">
-  <img width="800" alt="AetherViz Master Demo" src="<p align="center">
-  <img width="800" alt="AetherViz Master Demo" src="https://private-user-images.githubusercontent.com/209410688/592268944-a39b8926-2374-4ed2-951f-5c721db2108a.png" />
-</p>" />
+<br />
 
 ### 方式 2：本地服务器
 
@@ -108,7 +105,7 @@ python3 -m http.server 8080
 ## 实验激活链接
 
 ```
-http://localhost:8080/分子与光/molecule_and_light.html
+https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html
 ```
 
 ## 实验简介
