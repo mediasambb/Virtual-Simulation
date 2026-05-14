@@ -39,7 +39,7 @@
 - 0️⃣零依赖：单文件 HTML，双击运行，无需服务器
 
 <p align="center">
-  <img width="800" alt="AetherViz Master Demo" src="https://private-user-images.githubusercontent.com/209410688/592268944-a39b8926-2374-4ed2-951f-5c721db2108a.png" />
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/1.png" />
 </p>
 
 ## 项目结构
@@ -87,7 +87,7 @@ python3 -m http.server 8080
 | KaTeX       | v0.16.11 | CDN | 数学公式渲染  |
 | JavaScript  | ES6+     | 原生  | 物理仿真逻辑  |
 
-> **致谢**：本项目基于开源框架 [AetherViz Master](https://github.com/andyhuo520/aetherviz-master) 开发，感谢原作者 Andy Huo 的贡献。
+> **致谢**：本项目基于开源框架 [AetherViz Master]开发，感谢原作者 Andy Huo 的贡献。
 
 ## 核心功能
 
@@ -112,13 +112,18 @@ https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html
 
 本实验是大学物理虚拟仿真项目，演示分子与光的共振吸收和发射现象。当入射光的频率等于分子的固有频率时，光子被分子吸收，分子发生剧烈振动；振动衰减后，分子发射出与入射光频率相同的光子。
 
-[https://private-user-images.githubusercontent.com/209410688/592268940-9c5d5f62-a7ee-40ed-8e25-c15e3529e2c3.png](https://private-user-images.githubusercontent.com/209410688/592268940-9c5d5f62-a7ee-40ed-8e25-c15e3529e2c3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY2OTQsIm5iZiI6MTc3ODczNjM5NCwicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTQwLTljNWQ1ZjYyLWE3ZWUtNDBlZC04ZTI1LWMxNWUzNTI5ZTJjMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZGY5NmFhOTU5YTQ3ZTNjZWQ0NGVkNzcyM2M5Y2MyYjQ1MTM3ZThhNmJhYjAzZmEwZjU1OTdhYTllYzU5NWY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.JNNx0NlX1XBmjFL0wMrzvMmn2NJ8AasrhQLRxXIwa3M)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/2.png" />
+</p>
 
 ## 功能清单
 
 ### 一、光波频率控制
 
-[https://private-user-images.githubusercontent.com/209410688/592268941-cc754162-6fdb-4752-b8dd-1ba338693208.png](https://private-user-images.githubusercontent.com/209410688/592268941-cc754162-6fdb-4752-b8dd-1ba338693208.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY2OTQsIm5iZiI6MTc3ODczNjM5NCwicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTQxLWNjNzU0MTYyLTZmZGItNDc1Mi1iOGRkLTFiYTMzODY5MzIwOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MmU1ZWFhMWU5ODI1NDk5YWQ4NzVmN2IxZmM5ZGEzOWY2NDBiOGM3ZWJkMzM0YzYzNWVkNGY1YzYzNzdmYTU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.goyqEobkIbMkIFqVu9xtYgpO1efUqQjNSVPOsyazt5k)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/5.png" />
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/55.png" />
+</p>
 
 | 按钮  | 频率       | 功能说明             |
 | :-- | :------- | :--------------- |
@@ -133,11 +138,15 @@ https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html
 
 频率滑块范围：**0 \~ 900 THz**（连续可调，步进 1 THz）
 
-[https://private-user-images.githubusercontent.com/209410688/592268943-b0116dfb-07a5-4038-8985-06f82fe9d402.png](https://private-user-images.githubusercontent.com/209410688/592268943-b0116dfb-07a5-4038-8985-06f82fe9d402.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY5MzcsIm5iZiI6MTc3ODczNjYzNywicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTQzLWIwMTE2ZGZiLTA3YTUtNDAzOC04OTg1LTA2ZjgyZmU5ZDQwMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTMwMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iOWZhMWMxOTJmOTc0ZWU0MGE5NDliNTE2NzBjZDk2ZjdiMzlhOWY1ZWJmNGQyNTBjMGQ3NmE0NmI2NjZiNDFlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.wRqYVMdsDS65EvmS_R4jDiQE3xrEzHQd4RTwmTfsxvU)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/5.png" />
+</p>
 
 ### 二、分子选择
 
-[https://private-user-images.githubusercontent.com/209410688/592268941-cc754162-6fdb-4752-b8dd-1ba338693208.png](https://private-user-images.githubusercontent.com/209410688/592268941-cc754162-6fdb-4752-b8dd-1ba338693208.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY2OTQsIm5iZiI6MTc3ODczNjM5NCwicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTQxLWNjNzU0MTYyLTZmZGItNDc1Mi1iOGRkLTFiYTMzODY5MzIwOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MmU1ZWFhMWU5ODI1NDk5YWQ4NzVmN2IxZmM5ZGEzOWY2NDBiOGM3ZWJkMzM0YzYzNWVkNGY1YzYzNzdmYTU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.goyqEobkIbMkIFqVu9xtYgpO1efUqQjNSVPOsyazt5k)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/5.png" />
+</p>
 
 | 分子   | 化学式 | 固有频率      | 吸收波段   |
 | :--- | :-- | :-------- | :----- |
@@ -152,7 +161,9 @@ https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html
 
 ### 三、实验操作按钮
 
-[https://private-user-images.githubusercontent.com/209410688/592268941-cc754162-6fdb-4752-b8dd-1ba338693208.png](https://private-user-images.githubusercontent.com/209410688/592268941-cc754162-6fdb-4752-b8dd-1ba338693208.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY2OTQsIm5iZiI6MTc3ODczNjM5NCwicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTQxLWNjNzU0MTYyLTZmZGItNDc1Mi1iOGRkLTFiYTMzODY5MzIwOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MmU1ZWFhMWU5ODI1NDk5YWQ4NzVmN2IxZmM5ZGEzOWY2NDBiOGM3ZWJkMzM0YzYzNWVkNGY1YzYzNzdmYTU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.goyqEobkIbMkIFqVu9xtYgpO1efUqQjNSVPOsyazt5k)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/5.png" />
+</p>
 
 | 按钮    | 功能                  |
 | :---- | :------------------ |
@@ -174,13 +185,18 @@ https://math-oss.nanyuecloud.com/xd-rag/vr3_png/molecule_and_light.html
 - 分子开始剧烈振动（阻尼振荡，约2.8秒）
 - 振动结束后分子发射同频率光子
 
-[https://private-user-images.githubusercontent.com/209410688/592268940-9c5d5f62-a7ee-40ed-8e25-c15e3529e2c3.png](https://private-user-images.githubusercontent.com/209410688/592268940-9c5d5f62-a7ee-40ed-8e25-c15e3529e2c3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY2OTQsIm5iZiI6MTc3ODczNjM5NCwicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTQwLTljNWQ1ZjYyLWE3ZWUtNDBlZC04ZTI1LWMxNWUzNTI5ZTJjMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZGY5NmFhOTU5YTQ3ZTNjZWQ0NGVkNzcyM2M5Y2MyYjQ1MTM3ZThhNmJhYjAzZmEwZjU1OTdhYTllYzU5NWY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.JNNx0NlX1XBmjFL0wMrzvMmn2NJ8AasrhQLRxXIwa3M)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/2.png" />
+</p>
 
 1. **频率不匹配时**：
    - 光子穿过分子，继续传播
    - Toast提示"光子穿过分子，未共振"
 
-[https://private-user-images.githubusercontent.com/209410688/592268937-ee68509f-431d-4a80-942b-df44d0171a5d.png](https://private-user-images.githubusercontent.com/209410688/592268937-ee68509f-431d-4a80-942b-df44d0171a5d.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY2OTQsIm5iZiI6MTc3ODczNjM5NCwicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTM3LWVlNjg1MDlmLTQzMWQtNGE4MC05NDJiLWRmNDRkMDE3MWE1ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MTAyNGU2MTg2ZjUzYTRmZGM1ZmRlNTIwZGFmYjFjMDUyYzkwZGY4ZWI2NzA1MGU1ZDQ1MjAxY2Y0YWI1NWM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.irQymWId9Y6g9GBnals2u4jyDA71wck846YSMyD0aNk)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/3.png" />
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/4.png" />
+</p>
 
 ### 五、技术栈
 
@@ -243,15 +259,21 @@ Code仿真项目/
 - `z = 6` 提供合适的观察距离
 - 不同参数配置提供：不同观察角度
 
-[https://private-user-images.githubusercontent.com/209410688/592268938-b8b50c5b-1af7-4e8c-961f-baa2ae411835.png](https://private-user-images.githubusercontent.com/209410688/592268938-b8b50c5b-1af7-4e8c-961f-baa2ae411835.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY5MzcsIm5iZiI6MTc3ODczNjYzNywicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTM4LWI4YjUwYzViLTFhZjctNGU4Yy05NjFmLWJhYTJhZTQxMTgzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTMwMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xYWU1N2YzNmJkNGZmOTlhMzUwMjZhOGQ1YWEzYTkyYWE4MmI3NmNkNjA3NDM2ZDNmNjc1MDc1Mzc2NWE3MmJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.JD012ztnGfONWo0-fuSwsQuzh6ctJCKECTVBHvf_1To)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/11.png" />
+</p>
 
 - 不同参数配置提供：分子缩放倍率
 
-[https://private-user-images.githubusercontent.com/209410688/592268939-8e955aee-df1e-4261-abc5-a7c509fd3138.png](https://private-user-images.githubusercontent.com/209410688/592268939-8e955aee-df1e-4261-abc5-a7c509fd3138.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY5MzcsIm5iZiI6MTc3ODczNjYzNywicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTM5LThlOTU1YWVlLWRmMWUtNDI2MS1hYmM1LWE3YzUwOWZkMzEzOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTMwMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMDMzOThjYTdhNDM4NDQxMzRlM2U4ZDQ5Njg3MWJjZjQ4YTNmMjgzM2I3NzIyNzM3ZDg5OWZlYmU0OTg1YThlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.943kgZSMrOkoUvm60lvqL_BhJRQLJwGDbTRQ1OUXNMQ)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/33.png" />
+</p>
 
 - 不同参数配置提供：分子不同观察高度/缩放倍率
 
-[https://private-user-images.githubusercontent.com/209410688/592268936-315fee97-613b-4cad-b7b7-fd592484c55f.png](https://private-user-images.githubusercontent.com/209410688/592268936-315fee97-613b-4cad-b7b7-fd592484c55f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg3MzY5MzcsIm5iZiI6MTc3ODczNjYzNywicGF0aCI6Ii8yMDk0MTA2ODgvNTkyMjY4OTM2LTMxNWZlZTk3LTYxM2ItNGNhZC1iN2I3LWZkNTkyNDg0YzU1Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxNFQwNTMwMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03M2YwYjkyNTA2ZGNhMTQyZDI5MDM3MTlmMjIzY2Q2NGVmZTFmZDU1YWZhNGVjMjdmMTg1ODkyMWVlMzM2NTQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.YyEH9oiQAODNhvH2A5UofTP91DSKOVwOFt32zcsLXVA)
+<p align="center">
+  <img width="800" alt="Virtual-Simulation Demo" src="https://math-oss.nanyuecloud.com/xd-rag/vr3_png/44.png" />
+</p>
 
 ### 八、更新日志
 
